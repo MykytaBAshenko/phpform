@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Arial';
+}
+a{
+    color:grey;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover{
+    color: orange;
+}
+:active, :hover, :focus {
+outline: 0;
+outline-offset: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    padding: 15px 35px;
+}
+header div{
+    justify-self: end;
+}
+form {
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+align-items: center;
+margin: 40px;
+}
+
+form label{
+    width: 500px;
+}
+form button{
+    width: 500px;
+}
+form a{
+    width: 500px;
+    text-align: center;
+}
+.exit{
+    padding: 25px;
+}
+
+form h2.logoform{
+    padding-bottom: 45px;
+}
+
+form input {
+margin: 10px 0;
+padding: 10px;
+width: 500px;
+border: unset;
+border-bottom: 2px solid #e3e3e3;
+outline: none;
+}
+input:focus{
+border-color: orange !important;
+}
+
+button {
+padding: 10px;
+background: #e3e3e3;
+border: unset;
+cursor: pointer;
+}
+form a#infoa {
+    font-size: 25px;
+}
+
+button:hover{
+background: orange;
+}
+p{
+text-align: center;
+line-height:30px;
+}
+.vopros{
+margin-top:10px;
+}
+#errmsg{
+color: red;
+}
+#successmsg{
+    color: lime;
+}
